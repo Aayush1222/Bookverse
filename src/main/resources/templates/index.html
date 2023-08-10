@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" th:href="@{/css/index.css}" href="../static/css/index.css">
+
+</head>
+
+<body>
+<header>
+    <div class="logo">
+        <a href="/"><img src="../static/images/logo.png"  th:src="@{/images/logo.png}" alt="Book Store Logo"
+                         class="logo"></a>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#" th:href="@{/login}" sec:authorize="isAnonymous()">Login</a>
+            </li>
+            <li>
+                <a href="#" th:href="@{/register}" sec:authorize="isAnonymous()">Register</a>
+            </li>
+            <li>
+                <a href="#" th:href="@{/logout}" sec:authorize="isAuthenticated()">Logout</a>
+            </li>
+            <li>
+                <a href="#" th:href="@{/shop}">Buy Now</a>
+            </li>
+            <li>
+                <a href="#" th:href="@{/cart}">Cart</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="quote">
+        <h2>"Books are the keys to endless adventures and boundless imagination."</h2>
+        <button class="buynow">Buy Now</button>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2023 Your Book Store. All rights reserved.</p>
+</footer>
+</body>
+
+</html>

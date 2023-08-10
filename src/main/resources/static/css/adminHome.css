@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FF69B4; /* Papaya Whip - Cakeish color */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF69B4; /* Wheat - Cakeish color */
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #8b4513; /* Saddle Brown - Cakeish color */
+    padding: 5px;
+}
+
+.nav-items a:hover {
+    background-color: #d2b48c; /* Tan - Cakeish color */
+    border-radius: 5px;
+    border: #8b4513 2px solid; /* Saddle Brown - Cakeish color */
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.welcome-box {
+    padding: 20px;
+    text-align: center;
+    border: #8b4513 2px solid; /* Saddle Brown - Cakeish color */
+    border-radius: 10px;
+    background-color: #fff8dc; /* Cornsilk - Cakeish color */
+}
+
+.welcome-box h1 {
+    color: #8b4513; /* Saddle Brown - Cakeish color */
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-size: cover;
+    height: 60.7vh;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #8b4513; /* Saddle Brown - Cakeish color */
+    border-radius: 10px;
+}
+
+.box h2 {
+    color: #8b4513; /* Saddle Brown - Cakeish color */
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.box a.Manage-link {
+    padding: 10px 20px;
+    background-color: #f4a460; /* Sandy Brown - Cakeish color */
+    border: none;
+    border-radius: 5px;
+    color: #8b4513; /* Saddle Brown - Cakeish color */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.box a.Manage-link:hover {
+    background-color: #d2b48c; /* Tan - Cakeish color */
+    border-radius: 5px;
+    border: #8b4513 2px solid; /* Saddle Brown - Cakeish color */
+}
+
+.group{
+    background-image: url(../images/index-background.png);
+    background-size: cover;
+}
+
+
